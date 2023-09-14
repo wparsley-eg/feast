@@ -260,3 +260,4 @@ def _convert_arrow_to_proto(
         created_timestamps = [None] * table.num_rows
 
     return list(zip(entity_keys, features, event_timestamps, created_timestamps))
+
